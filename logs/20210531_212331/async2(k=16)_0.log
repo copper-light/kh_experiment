@@ -1,0 +1,402 @@
+2021-06-01 03:25:31,390:INFO:[Rank-0] args : Namespace(batch=1024, current_time='20210531_212331', dataset='cifar100', epochs=200, ip='192.168.1.1:7548', k=16, loss_std_gap_rate=1.0, lr=0.05, momentum=0.6, name='async2(k=16)', rank=0, scheduler_step=80, train_type='async2', weight_decay=0.0005, world=4)
+2021-06-01 03:26:08,414:INFO:[Rank-0] train time 35.1468, epoch   1, step  49, loss 4.75999641, auc@1 2.64, auc@5 10.86, share 4, std_loss 0, pre_std_loss 0, 
+2021-06-01 03:26:23,377:INFO:[Rank-0] val time 14.9596, epoch   1, step  40, loss 4.41031566, auc@1 4.17, auc@5 15.90
+2021-06-01 03:26:59,668:INFO:[Rank-0] train time 34.2261, epoch   2, step  49, loss 4.22294140, auc@1 5.82, auc@5 21.43, share 4, std_loss 0, pre_std_loss 0, 
+2021-06-01 03:27:14,650:INFO:[Rank-0] val time 14.9775, epoch   2, step  40, loss 4.09983062, auc@1 6.79, auc@5 24.11
+2021-06-01 03:27:50,607:INFO:[Rank-0] train time 34.2812, epoch   3, step  49, loss 3.99450183, auc@1 8.40, auc@5 27.98, share 4, std_loss 0, pre_std_loss 0, 
+2021-06-01 03:28:05,798:INFO:[Rank-0] val time 15.1870, epoch   3, step  40, loss 3.89715288, auc@1 9.70, auc@5 29.67
+2021-06-01 03:28:41,535:INFO:[Rank-0] train time 34.0202, epoch   4, step  49, loss 3.86476898, auc@1 10.02, auc@5 31.46, share 4, std_loss 0, pre_std_loss 0, 
+2021-06-01 03:28:56,533:INFO:[Rank-0] val time 14.9941, epoch   4, step  40, loss 3.80849083, auc@1 10.66, auc@5 33.04
+2021-06-01 03:29:32,791:INFO:[Rank-0] train time 34.1016, epoch   5, step  49, loss 3.75556493, auc@1 11.40, auc@5 34.88, share 4, std_loss 0, pre_std_loss 0, 
+2021-06-01 03:29:48,025:INFO:[Rank-0] val time 15.2303, epoch   5, step  40, loss 3.77142863, auc@1 11.63, auc@5 37.09
+2021-06-01 03:30:23,881:INFO:[Rank-0] train time 34.1531, epoch   6, step  49, loss 3.65590620, auc@1 13.18, auc@5 38.17, share 4, std_loss 0, pre_std_loss 0, 
+2021-06-01 03:30:39,374:INFO:[Rank-0] val time 15.4889, epoch   6, step  40, loss 3.58495839, auc@1 13.98, auc@5 39.56
+2021-06-01 03:31:14,718:INFO:[Rank-0] train time 34.2789, epoch   7, step  49, loss 3.55013156, auc@1 14.65, auc@5 40.93, share 4, std_loss 0, pre_std_loss 0, 
+2021-06-01 03:31:29,740:INFO:[Rank-0] val time 15.0180, epoch   7, step  40, loss 3.55242495, auc@1 15.02, auc@5 40.31
+2021-06-01 03:32:05,589:INFO:[Rank-0] train time 34.2222, epoch   8, step  49, loss 3.43429565, auc@1 16.80, auc@5 44.16, share 4, std_loss 0, pre_std_loss 0, 
+2021-06-01 03:32:20,591:INFO:[Rank-0] val time 14.9994, epoch   8, step  40, loss 3.41817765, auc@1 17.39, auc@5 44.73
+2021-06-01 03:32:56,768:INFO:[Rank-0] train time 34.1038, epoch   9, step  49, loss 3.34033537, auc@1 18.39, auc@5 47.03, share 4, std_loss 0, pre_std_loss 0, 
+2021-06-01 03:33:11,806:INFO:[Rank-0] val time 15.0333, epoch   9, step  40, loss 3.29939990, auc@1 20.06, auc@5 47.12
+2021-06-01 03:33:47,975:INFO:[Rank-0] train time 34.1094, epoch  10, step  49, loss 3.24838066, auc@1 20.07, auc@5 49.41, share 4, std_loss 0, pre_std_loss 0, 
+2021-06-01 03:34:02,949:INFO:[Rank-0] val time 14.9707, epoch  10, step  40, loss 3.45066953, auc@1 17.63, auc@5 44.26
+2021-06-01 03:34:38,944:INFO:[Rank-0] train time 34.0761, epoch  11, step  49, loss 3.16359782, auc@1 21.52, auc@5 51.58, share 4, std_loss 0, pre_std_loss 0, 
+2021-06-01 03:34:53,944:INFO:[Rank-0] val time 14.9967, epoch  11, step  40, loss 3.14743052, auc@1 22.37, auc@5 51.66
+2021-06-01 03:35:30,447:INFO:[Rank-0] train time 34.4106, epoch  12, step  49, loss 3.07057881, auc@1 23.17, auc@5 53.89, share 4, std_loss 0, pre_std_loss 0, 
+2021-06-01 03:35:45,376:INFO:[Rank-0] val time 14.9255, epoch  12, step  40, loss 3.15400865, auc@1 22.47, auc@5 52.19
+2021-06-01 03:36:21,867:INFO:[Rank-0] train time 34.0933, epoch  13, step  49, loss 2.99218965, auc@1 24.82, auc@5 55.71, share 4, std_loss 0, pre_std_loss 0, 
+2021-06-01 03:36:37,011:INFO:[Rank-0] val time 15.1398, epoch  13, step  40, loss 3.06405232, auc@1 24.20, auc@5 55.26
+2021-06-01 03:37:13,225:INFO:[Rank-0] train time 34.1906, epoch  14, step  49, loss 2.92320681, auc@1 26.14, auc@5 57.90, share 4, std_loss 0, pre_std_loss 0, 
+2021-06-01 03:37:28,251:INFO:[Rank-0] val time 15.0223, epoch  14, step  40, loss 2.92877987, auc@1 26.31, auc@5 57.18
+2021-06-01 03:38:04,310:INFO:[Rank-0] train time 34.1246, epoch  15, step  49, loss 2.83986354, auc@1 27.56, auc@5 59.94, share 4, std_loss 0, pre_std_loss 0, 
+2021-06-01 03:38:19,309:INFO:[Rank-0] val time 14.9951, epoch  15, step  40, loss 2.90374837, auc@1 27.29, auc@5 58.50
+2021-06-01 03:38:54,977:INFO:[Rank-0] train time 34.2088, epoch  16, step  49, loss 2.77127123, auc@1 28.93, auc@5 61.42, share 4, std_loss 0, pre_std_loss 0, 
+2021-06-01 03:39:10,032:INFO:[Rank-0] val time 15.0513, epoch  16, step  40, loss 3.07838044, auc@1 26.65, auc@5 58.45
+2021-06-01 03:39:46,224:INFO:[Rank-0] train time 34.0910, epoch  17, step  49, loss 2.69815636, auc@1 30.43, auc@5 63.28, share 4, std_loss 0, pre_std_loss 0, 
+2021-06-01 03:40:01,230:INFO:[Rank-0] val time 15.0020, epoch  17, step  40, loss 2.95605920, auc@1 26.19, auc@5 57.26
+2021-06-01 03:40:37,013:INFO:[Rank-0] train time 34.2185, epoch  18, step  49, loss 2.61881089, auc@1 32.12, auc@5 64.93, share 4, std_loss 0, pre_std_loss 0, 
+2021-06-01 03:40:52,042:INFO:[Rank-0] val time 15.0256, epoch  18, step  40, loss 2.80086505, auc@1 30.59, auc@5 62.59
+2021-06-01 03:41:27,939:INFO:[Rank-0] train time 33.9524, epoch  19, step  49, loss 2.56614447, auc@1 33.13, auc@5 66.33, share 4, std_loss 0, pre_std_loss 0, 
+2021-06-01 03:41:42,945:INFO:[Rank-0] val time 15.0022, epoch  19, step  40, loss 2.75675963, auc@1 30.48, auc@5 62.34
+2021-06-01 03:42:19,062:INFO:[Rank-0] train time 34.7207, epoch  20, step  49, loss 2.48749042, auc@1 34.55, auc@5 67.75, share 4, std_loss 0, pre_std_loss 0, 
+2021-06-01 03:42:34,169:INFO:[Rank-0] val time 15.1029, epoch  20, step  40, loss 2.72388262, auc@1 30.90, auc@5 63.82
+2021-06-01 03:43:09,947:INFO:[Rank-0] train time 34.0157, epoch  21, step  49, loss 2.42386818, auc@1 36.17, auc@5 69.38, share 4, std_loss 0, pre_std_loss 0, 
+2021-06-01 03:43:25,038:INFO:[Rank-0] val time 15.0888, epoch  21, step  40, loss 2.74480514, auc@1 31.68, auc@5 62.75
+2021-06-01 03:44:01,204:INFO:[Rank-0] train time 33.9860, epoch  22, step  49, loss 2.36155152, auc@1 37.37, auc@5 70.41, share 4, std_loss 0, pre_std_loss 0, 
+2021-06-01 03:44:16,192:INFO:[Rank-0] val time 14.9845, epoch  22, step  40, loss 2.70248983, auc@1 32.09, auc@5 63.87
+2021-06-01 03:44:52,486:INFO:[Rank-0] train time 34.1504, epoch  23, step  49, loss 2.30885196, auc@1 38.50, auc@5 72.09, share 4, std_loss 0, pre_std_loss 0, 
+2021-06-01 03:45:07,673:INFO:[Rank-0] val time 15.1818, epoch  23, step  40, loss 2.58605924, auc@1 34.13, auc@5 65.57
+2021-06-01 03:45:43,628:INFO:[Rank-0] train time 34.1598, epoch  24, step  49, loss 2.24687004, auc@1 39.60, auc@5 73.05, share 4, std_loss 0, pre_std_loss 0, 
+2021-06-01 03:45:58,567:INFO:[Rank-0] val time 14.9350, epoch  24, step  40, loss 2.58773850, auc@1 35.38, auc@5 68.28
+2021-06-01 03:46:34,564:INFO:[Rank-0] train time 34.2000, epoch  25, step  49, loss 2.19372177, auc@1 40.93, auc@5 74.32, share 4, std_loss 0, pre_std_loss 0, 
+2021-06-01 03:46:49,692:INFO:[Rank-0] val time 15.1240, epoch  25, step  40, loss 2.66166813, auc@1 34.37, auc@5 65.75
+2021-06-01 03:47:25,613:INFO:[Rank-0] train time 34.0059, epoch  26, step  49, loss 2.13769460, auc@1 42.01, auc@5 75.34, share 4, std_loss 0, pre_std_loss 0, 
+2021-06-01 03:47:40,651:INFO:[Rank-0] val time 15.0340, epoch  26, step  40, loss 2.46502930, auc@1 37.57, auc@5 69.01
+2021-06-01 03:48:16,687:INFO:[Rank-0] train time 33.9132, epoch  27, step  49, loss 2.08952975, auc@1 43.42, auc@5 76.32, share 4, std_loss 0, pre_std_loss 0, 
+2021-06-01 03:48:31,828:INFO:[Rank-0] val time 15.1384, epoch  27, step  40, loss 2.34652326, auc@1 38.63, auc@5 71.45
+2021-06-01 03:49:07,469:INFO:[Rank-0] train time 34.0938, epoch  28, step  49, loss 2.03416991, auc@1 44.73, auc@5 77.34, share 4, std_loss 0, pre_std_loss 0, 
+2021-06-01 03:49:22,424:INFO:[Rank-0] val time 14.9504, epoch  28, step  40, loss 2.33903933, auc@1 39.19, auc@5 71.33
+2021-06-01 03:49:58,380:INFO:[Rank-0] train time 34.1986, epoch  29, step  49, loss 2.00648570, auc@1 45.16, auc@5 78.12, share 4, std_loss 0, pre_std_loss 0, 
+2021-06-01 03:50:13,389:INFO:[Rank-0] val time 15.0048, epoch  29, step  40, loss 2.20141725, auc@1 42.24, auc@5 73.78
+2021-06-01 03:50:49,140:INFO:[Rank-0] train time 34.0854, epoch  30, step  49, loss 1.94803202, auc@1 46.49, auc@5 78.99, share 4, std_loss 0, pre_std_loss 0, 
+2021-06-01 03:51:04,160:INFO:[Rank-0] val time 15.0174, epoch  30, step  40, loss 2.17629762, auc@1 42.53, auc@5 74.64
+2021-06-01 03:51:40,577:INFO:[Rank-0] train time 34.1465, epoch  31, step  49, loss 1.90862036, auc@1 47.37, auc@5 79.71, share 4, std_loss 0, pre_std_loss 0, 
+2021-06-01 03:51:55,593:INFO:[Rank-0] val time 15.0123, epoch  31, step  40, loss 2.33268988, auc@1 40.27, auc@5 71.67
+2021-06-01 03:52:31,915:INFO:[Rank-0] train time 34.3231, epoch  32, step  49, loss 1.86666512, auc@1 48.50, auc@5 80.56, share 4, std_loss 0, pre_std_loss 0, 
+2021-06-01 03:52:46,955:INFO:[Rank-0] val time 15.0367, epoch  32, step  40, loss 2.25285279, auc@1 41.21, auc@5 73.32
+2021-06-01 03:53:23,106:INFO:[Rank-0] train time 34.2364, epoch  33, step  49, loss 1.82800424, auc@1 49.33, auc@5 81.23, share 4, std_loss 0, pre_std_loss 0, 
+2021-06-01 03:53:38,063:INFO:[Rank-0] val time 14.9529, epoch  33, step  40, loss 2.20349258, auc@1 42.03, auc@5 74.76
+2021-06-01 03:54:14,101:INFO:[Rank-0] train time 34.2102, epoch  34, step  49, loss 1.79967880, auc@1 49.84, auc@5 81.72, share 4, std_loss 0, pre_std_loss 0, 
+2021-06-01 03:54:29,128:INFO:[Rank-0] val time 15.0239, epoch  34, step  40, loss 2.05106789, auc@1 45.52, auc@5 77.41
+2021-06-01 03:55:05,177:INFO:[Rank-0] train time 34.2426, epoch  35, step  49, loss 1.75957596, auc@1 50.86, auc@5 82.18, share 4, std_loss 0, pre_std_loss 0, 
+2021-06-01 03:55:20,075:INFO:[Rank-0] val time 14.8942, epoch  35, step  40, loss 2.21010291, auc@1 42.98, auc@5 75.27
+2021-06-01 03:55:56,243:INFO:[Rank-0] train time 34.0548, epoch  36, step  49, loss 1.73264122, auc@1 51.82, auc@5 82.85, share 4, std_loss 0, pre_std_loss 0, 
+2021-06-01 03:56:11,215:INFO:[Rank-0] val time 14.9680, epoch  36, step  40, loss 2.13309654, auc@1 44.89, auc@5 76.02
+2021-06-01 03:56:46,974:INFO:[Rank-0] train time 34.0346, epoch  37, step  49, loss 1.69703543, auc@1 52.53, auc@5 83.48, share 4, std_loss 0, pre_std_loss 0, 
+2021-06-01 03:57:01,990:INFO:[Rank-0] val time 15.0118, epoch  37, step  40, loss 2.13391663, auc@1 44.44, auc@5 75.86
+2021-06-01 03:57:38,040:INFO:[Rank-0] train time 34.2883, epoch  38, step  49, loss 1.66526639, auc@1 53.38, auc@5 83.93, share 4, std_loss 0, pre_std_loss 0, 
+2021-06-01 03:57:53,022:INFO:[Rank-0] val time 14.9791, epoch  38, step  40, loss 2.15021958, auc@1 44.32, auc@5 75.86
+2021-06-01 03:58:29,169:INFO:[Rank-0] train time 34.2567, epoch  39, step  49, loss 1.64728141, auc@1 53.58, auc@5 84.30, share 4, std_loss 0, pre_std_loss 0, 
+2021-06-01 03:58:44,232:INFO:[Rank-0] val time 15.0596, epoch  39, step  40, loss 86.77018650, auc@1 19.31, auc@5 38.52
+2021-06-01 03:59:20,322:INFO:[Rank-0] train time 33.9554, epoch  40, step  49, loss 1.62683225, auc@1 54.22, auc@5 84.68, share 4, std_loss 0, pre_std_loss 0, 
+2021-06-01 03:59:35,451:INFO:[Rank-0] val time 15.1245, epoch  40, step  40, loss 1.99047467, auc@1 47.67, auc@5 78.65
+2021-06-01 04:00:11,247:INFO:[Rank-0] train time 34.1059, epoch  41, step  49, loss 1.58654559, auc@1 54.99, auc@5 85.33, share 4, std_loss 0, pre_std_loss 0, 
+2021-06-01 04:00:26,306:INFO:[Rank-0] val time 15.0553, epoch  41, step  40, loss 1.94509558, auc@1 48.36, auc@5 79.33
+2021-06-01 04:01:02,699:INFO:[Rank-0] train time 34.3345, epoch  42, step  49, loss 1.54470420, auc@1 56.32, auc@5 85.87, share 4, std_loss 0, pre_std_loss 0, 
+2021-06-01 04:01:17,767:INFO:[Rank-0] val time 15.0641, epoch  42, step  40, loss 2.05713046, auc@1 46.85, auc@5 77.86
+2021-06-01 04:01:53,481:INFO:[Rank-0] train time 34.0626, epoch  43, step  49, loss 1.52632654, auc@1 56.43, auc@5 86.15, share 4, std_loss 0, pre_std_loss 0, 
+2021-06-01 04:02:08,555:INFO:[Rank-0] val time 15.0702, epoch  43, step  40, loss 1.99020757, auc@1 48.18, auc@5 78.76
+2021-06-01 04:02:44,554:INFO:[Rank-0] train time 34.0974, epoch  44, step  49, loss 1.49817753, auc@1 57.41, auc@5 86.57, share 4, std_loss 0, pre_std_loss 0, 
+2021-06-01 04:02:59,962:INFO:[Rank-0] val time 15.4045, epoch  44, step  40, loss 1.80299658, auc@1 51.13, auc@5 81.93
+2021-06-01 04:03:35,277:INFO:[Rank-0] train time 34.0129, epoch  45, step  49, loss 1.47882497, auc@1 57.90, auc@5 86.90, share 4, std_loss 0, pre_std_loss 0, 
+2021-06-01 04:03:50,337:INFO:[Rank-0] val time 15.0561, epoch  45, step  40, loss 1.95671502, auc@1 49.10, auc@5 79.76
+2021-06-01 04:04:26,647:INFO:[Rank-0] train time 34.0549, epoch  46, step  49, loss 1.45064878, auc@1 58.40, auc@5 87.26, share 4, std_loss 0, pre_std_loss 0, 
+2021-06-01 04:04:41,633:INFO:[Rank-0] val time 14.9810, epoch  46, step  40, loss 1.88663685, auc@1 49.12, auc@5 80.65
+2021-06-01 04:05:17,838:INFO:[Rank-0] train time 34.1629, epoch  47, step  49, loss 1.42351651, auc@1 59.16, auc@5 87.96, share 4, std_loss 0, pre_std_loss 0, 
+2021-06-01 04:05:32,882:INFO:[Rank-0] val time 15.0399, epoch  47, step  40, loss 1.84031922, auc@1 51.20, auc@5 81.05
+2021-06-01 04:06:08,982:INFO:[Rank-0] train time 33.9619, epoch  48, step  49, loss 1.41444159, auc@1 59.37, auc@5 88.03, share 4, std_loss 0, pre_std_loss 0, 
+2021-06-01 04:06:24,073:INFO:[Rank-0] val time 15.0870, epoch  48, step  40, loss 1.85396037, auc@1 50.73, auc@5 81.43
+2021-06-01 04:07:00,171:INFO:[Rank-0] train time 34.0842, epoch  49, step  49, loss 1.38085246, auc@1 60.30, auc@5 88.42, share 4, std_loss 0, pre_std_loss 0, 
+2021-06-01 04:07:15,441:INFO:[Rank-0] val time 15.2669, epoch  49, step  40, loss 1.79075900, auc@1 52.54, auc@5 81.78
+2021-06-01 04:07:51,906:INFO:[Rank-0] train time 34.1826, epoch  50, step  49, loss 1.36086738, auc@1 60.61, auc@5 88.71, share 4, std_loss 0, pre_std_loss 0, 
+2021-06-01 04:08:06,876:INFO:[Rank-0] val time 14.9652, epoch  50, step  40, loss 1.81399350, auc@1 52.55, auc@5 81.92
+2021-06-01 04:08:43,095:INFO:[Rank-0] train time 34.1677, epoch  51, step  49, loss 1.34351158, auc@1 61.50, auc@5 88.98, share 4, std_loss 0, pre_std_loss 0, 
+2021-06-01 04:08:58,048:INFO:[Rank-0] val time 14.9502, epoch  51, step  40, loss 1.68661287, auc@1 54.13, auc@5 83.73
+2021-06-01 04:09:34,004:INFO:[Rank-0] train time 34.1888, epoch  52, step  49, loss 1.31630468, auc@1 61.78, auc@5 89.52, share 4, std_loss 0, pre_std_loss 0, 
+2021-06-01 04:09:49,032:INFO:[Rank-0] val time 15.0249, epoch  52, step  40, loss 1.73261098, auc@1 53.90, auc@5 83.19
+2021-06-01 04:10:24,826:INFO:[Rank-0] train time 34.1809, epoch  53, step  49, loss 1.29503763, auc@1 62.24, auc@5 89.62, share 4, std_loss 0, pre_std_loss 0, 
+2021-06-01 04:10:39,911:INFO:[Rank-0] val time 15.0824, epoch  53, step  40, loss 1.89634154, auc@1 51.57, auc@5 81.50
+2021-06-01 04:11:15,854:INFO:[Rank-0] train time 34.0678, epoch  54, step  49, loss 1.28221047, auc@1 63.23, auc@5 89.71, share 4, std_loss 0, pre_std_loss 0, 
+2021-06-01 04:11:30,902:INFO:[Rank-0] val time 15.0441, epoch  54, step  40, loss 1.96632656, auc@1 48.69, auc@5 80.39
+2021-06-01 04:12:06,848:INFO:[Rank-0] train time 34.0318, epoch  55, step  49, loss 1.25814283, auc@1 63.65, auc@5 90.13, share 4, std_loss 0, pre_std_loss 0, 
+2021-06-01 04:12:21,834:INFO:[Rank-0] val time 14.9828, epoch  55, step  40, loss 1.77317499, auc@1 54.09, auc@5 83.74
+2021-06-01 04:12:57,779:INFO:[Rank-0] train time 34.1362, epoch  56, step  49, loss 1.23992097, auc@1 63.98, auc@5 90.47, share 4, std_loss 0, pre_std_loss 0, 
+2021-06-01 04:13:12,838:INFO:[Rank-0] val time 15.0546, epoch  56, step  40, loss 1.66327896, auc@1 54.81, auc@5 84.16
+2021-06-01 04:13:48,764:INFO:[Rank-0] train time 34.1247, epoch  57, step  49, loss 1.22346699, auc@1 64.25, auc@5 90.71, share 4, std_loss 0, pre_std_loss 0, 
+2021-06-01 04:14:03,753:INFO:[Rank-0] val time 14.9857, epoch  57, step  40, loss 1.74669185, auc@1 54.07, auc@5 83.06
+2021-06-01 04:14:39,982:INFO:[Rank-0] train time 34.1052, epoch  58, step  49, loss 1.20724583, auc@1 64.92, auc@5 90.94, share 4, std_loss 0, pre_std_loss 0, 
+2021-06-01 04:14:55,003:INFO:[Rank-0] val time 15.0173, epoch  58, step  40, loss 1.72667503, auc@1 53.58, auc@5 83.28
+2021-06-01 04:15:31,781:INFO:[Rank-0] train time 34.3042, epoch  59, step  49, loss 1.19540954, auc@1 65.15, auc@5 91.01, share 4, std_loss 0, pre_std_loss 0, 
+2021-06-01 04:15:46,895:INFO:[Rank-0] val time 15.1102, epoch  59, step  40, loss 1.62006387, auc@1 55.55, auc@5 84.69
+2021-06-01 04:16:23,245:INFO:[Rank-0] train time 33.9808, epoch  60, step  49, loss 1.17473722, auc@1 65.60, auc@5 91.29, share 4, std_loss 0, pre_std_loss 0, 
+2021-06-01 04:16:38,665:INFO:[Rank-0] val time 15.4179, epoch  60, step  40, loss 1.62322669, auc@1 56.05, auc@5 84.47
+2021-06-01 04:17:14,028:INFO:[Rank-0] train time 34.0908, epoch  61, step  49, loss 1.16822958, auc@1 65.82, auc@5 91.50, share 4, std_loss 0, pre_std_loss 0, 
+2021-06-01 04:17:29,020:INFO:[Rank-0] val time 14.9882, epoch  61, step  40, loss 1.65703869, auc@1 55.21, auc@5 84.68
+2021-06-01 04:18:05,193:INFO:[Rank-0] train time 34.1781, epoch  62, step  49, loss 1.14073980, auc@1 66.44, auc@5 91.57, share 4, std_loss 0, pre_std_loss 0, 
+2021-06-01 04:18:20,298:INFO:[Rank-0] val time 15.1011, epoch  62, step  40, loss 1.71692116, auc@1 55.18, auc@5 84.43
+2021-06-01 04:18:56,233:INFO:[Rank-0] train time 34.1760, epoch  63, step  49, loss 1.13345575, auc@1 66.64, auc@5 91.80, share 4, std_loss 0, pre_std_loss 0, 
+2021-06-01 04:19:11,256:INFO:[Rank-0] val time 15.0193, epoch  63, step  40, loss 1.76381159, auc@1 54.30, auc@5 83.26
+2021-06-01 04:19:47,203:INFO:[Rank-0] train time 34.0265, epoch  64, step  49, loss 1.11622715, auc@1 67.20, auc@5 92.04, share 4, std_loss 0, pre_std_loss 0, 
+2021-06-01 04:20:02,187:INFO:[Rank-0] val time 14.9818, epoch  64, step  40, loss 1.75744249, auc@1 56.11, auc@5 83.72
+2021-06-01 04:20:38,497:INFO:[Rank-0] train time 34.0928, epoch  65, step  49, loss 1.09632087, auc@1 67.63, auc@5 92.18, share 4, std_loss 0, pre_std_loss 0, 
+2021-06-01 04:20:53,460:INFO:[Rank-0] val time 14.9581, epoch  65, step  40, loss 1.63526460, auc@1 56.28, auc@5 84.47
+2021-06-01 04:21:29,601:INFO:[Rank-0] train time 34.2000, epoch  66, step  49, loss 1.07915020, auc@1 68.22, auc@5 92.50, share 4, std_loss 0, pre_std_loss 0, 
+2021-06-01 04:21:44,571:INFO:[Rank-0] val time 14.9652, epoch  66, step  40, loss 1.69101727, auc@1 55.52, auc@5 84.22
+2021-06-01 04:22:20,710:INFO:[Rank-0] train time 34.0872, epoch  67, step  49, loss 1.07028687, auc@1 68.45, auc@5 92.66, share 4, std_loss 0, pre_std_loss 0, 
+2021-06-01 04:22:35,901:INFO:[Rank-0] val time 15.1868, epoch  67, step  40, loss 1.67289471, auc@1 55.58, auc@5 84.97
+2021-06-01 04:23:12,131:INFO:[Rank-0] train time 33.9000, epoch  68, step  49, loss 1.05950558, auc@1 68.65, auc@5 92.79, share 4, std_loss 0, pre_std_loss 0, 
+2021-06-01 04:23:27,120:INFO:[Rank-0] val time 14.9852, epoch  68, step  40, loss 1.61898523, auc@1 56.59, auc@5 85.01
+2021-06-01 04:24:02,984:INFO:[Rank-0] train time 34.1730, epoch  69, step  49, loss 1.04974544, auc@1 68.81, auc@5 92.83, share 4, std_loss 0, pre_std_loss 0, 
+2021-06-01 04:24:18,129:INFO:[Rank-0] val time 15.1404, epoch  69, step  40, loss 1.54167787, auc@1 58.38, auc@5 86.11
+2021-06-01 04:24:54,189:INFO:[Rank-0] train time 34.1262, epoch  70, step  49, loss 1.03244662, auc@1 69.20, auc@5 93.10, share 4, std_loss 0, pre_std_loss 0, 
+2021-06-01 04:25:09,422:INFO:[Rank-0] val time 15.2295, epoch  70, step  40, loss 1.55216800, auc@1 57.85, auc@5 85.94
+2021-06-01 04:25:45,231:INFO:[Rank-0] train time 34.0418, epoch  71, step  49, loss 1.01997781, auc@1 69.55, auc@5 93.25, share 4, std_loss 0, pre_std_loss 0, 
+2021-06-01 04:26:00,193:INFO:[Rank-0] val time 14.9581, epoch  71, step  40, loss 1.53715594, auc@1 58.71, auc@5 86.45
+2021-06-01 04:26:36,617:INFO:[Rank-0] train time 34.2669, epoch  72, step  49, loss 0.99561888, auc@1 70.35, auc@5 93.51, share 4, std_loss 0, pre_std_loss 0, 
+2021-06-01 04:26:51,879:INFO:[Rank-0] val time 15.2576, epoch  72, step  40, loss 1.59114276, auc@1 58.55, auc@5 85.86
+2021-06-01 04:27:27,724:INFO:[Rank-0] train time 33.9680, epoch  73, step  49, loss 0.99852359, auc@1 70.14, auc@5 93.50, share 4, std_loss 0, pre_std_loss 0, 
+2021-06-01 04:27:42,734:INFO:[Rank-0] val time 15.0059, epoch  73, step  40, loss 1.70504093, auc@1 56.42, auc@5 84.49
+2021-06-01 04:28:18,735:INFO:[Rank-0] train time 34.3611, epoch  74, step  49, loss 0.97779322, auc@1 71.13, auc@5 93.68, share 4, std_loss 0, pre_std_loss 0, 
+2021-06-01 04:28:33,694:INFO:[Rank-0] val time 14.9555, epoch  74, step  40, loss 1.56447230, auc@1 58.43, auc@5 85.90
+2021-06-01 04:29:09,831:INFO:[Rank-0] train time 34.3961, epoch  75, step  49, loss 0.96296102, auc@1 71.15, auc@5 93.90, share 4, std_loss 0, pre_std_loss 0, 
+2021-06-01 04:29:24,888:INFO:[Rank-0] val time 15.0531, epoch  75, step  40, loss 1.56440949, auc@1 58.49, auc@5 86.47
+2021-06-01 04:30:01,325:INFO:[Rank-0] train time 34.1909, epoch  76, step  49, loss 0.96313429, auc@1 71.18, auc@5 93.98, share 4, std_loss 0, pre_std_loss 0, 
+2021-06-01 04:30:16,340:INFO:[Rank-0] val time 15.0119, epoch  76, step  40, loss 1.56580215, auc@1 58.39, auc@5 86.10
+2021-06-01 04:30:52,280:INFO:[Rank-0] train time 34.0971, epoch  77, step  49, loss 0.94529384, auc@1 71.62, auc@5 94.25, share 4, std_loss 0, pre_std_loss 0, 
+2021-06-01 04:31:07,832:INFO:[Rank-0] val time 15.5490, epoch  77, step  40, loss 1.54010301, auc@1 59.42, auc@5 85.93
+2021-06-01 04:31:43,723:INFO:[Rank-0] train time 34.3121, epoch  78, step  49, loss 0.92326885, auc@1 72.35, auc@5 94.31, share 4, std_loss 0, pre_std_loss 0, 
+2021-06-01 04:31:58,800:INFO:[Rank-0] val time 15.0736, epoch  78, step  40, loss 1.68868495, auc@1 56.88, auc@5 85.23
+2021-06-01 04:32:35,058:INFO:[Rank-0] train time 34.2706, epoch  79, step  49, loss 0.92194134, auc@1 72.45, auc@5 94.29, share 4, std_loss 0, pre_std_loss 0, 
+2021-06-01 04:32:50,207:INFO:[Rank-0] val time 15.1452, epoch  79, step  40, loss 1.53055830, auc@1 58.93, auc@5 86.81
+2021-06-01 04:33:26,075:INFO:[Rank-0] train time 33.9860, epoch  80, step  49, loss 0.90489244, auc@1 72.79, auc@5 94.56, share 4, std_loss 0, pre_std_loss 0, 
+2021-06-01 04:33:41,069:INFO:[Rank-0] val time 14.9908, epoch  80, step  40, loss 1.49539676, auc@1 60.54, auc@5 86.94
+2021-06-01 04:34:16,887:INFO:[Rank-0] train time 34.2540, epoch  81, step  49, loss 0.89835185, auc@1 73.01, auc@5 94.56, share 4, std_loss 0, pre_std_loss 0, 
+2021-06-01 04:34:31,902:INFO:[Rank-0] val time 15.0108, epoch  81, step  40, loss 1.66522503, auc@1 56.75, auc@5 84.51
+2021-06-01 04:35:07,870:INFO:[Rank-0] train time 34.1302, epoch  82, step  49, loss 0.87996638, auc@1 73.54, auc@5 94.76, share 4, std_loss 0, pre_std_loss 0, 
+2021-06-01 04:35:22,927:INFO:[Rank-0] val time 15.0531, epoch  82, step  40, loss 1.48772669, auc@1 61.04, auc@5 88.01
+2021-06-01 04:35:59,052:INFO:[Rank-0] train time 34.0955, epoch  83, step  49, loss 0.86907190, auc@1 73.93, auc@5 94.97, share 4, std_loss 0, pre_std_loss 0, 
+2021-06-01 04:36:14,071:INFO:[Rank-0] val time 15.0149, epoch  83, step  40, loss 1.56213775, auc@1 58.56, auc@5 86.16
+2021-06-01 04:36:50,527:INFO:[Rank-0] train time 34.1923, epoch  84, step  49, loss 0.86773002, auc@1 73.82, auc@5 94.99, share 4, std_loss 0, pre_std_loss 0, 
+2021-06-01 04:37:05,590:INFO:[Rank-0] val time 15.0602, epoch  84, step  40, loss 1.78134706, auc@1 58.36, auc@5 86.14
+2021-06-01 04:37:41,853:INFO:[Rank-0] train time 34.1365, epoch  85, step  49, loss 0.85423368, auc@1 74.15, auc@5 95.14, share 4, std_loss 0, pre_std_loss 0, 
+2021-06-01 04:37:56,911:INFO:[Rank-0] val time 15.0540, epoch  85, step  40, loss 1.50917478, auc@1 60.53, auc@5 87.08
+2021-06-01 04:38:33,186:INFO:[Rank-0] train time 33.9761, epoch  86, step  49, loss 0.85158384, auc@1 74.18, auc@5 95.16, share 4, std_loss 0, pre_std_loss 0, 
+2021-06-01 04:38:48,278:INFO:[Rank-0] val time 15.0868, epoch  86, step  40, loss 1.61385880, auc@1 59.41, auc@5 85.91
+2021-06-01 04:39:24,137:INFO:[Rank-0] train time 34.0057, epoch  87, step  49, loss 0.83503813, auc@1 74.76, auc@5 95.21, share 4, std_loss 0, pre_std_loss 0, 
+2021-06-01 04:39:39,127:INFO:[Rank-0] val time 14.9861, epoch  87, step  40, loss 1.61997866, auc@1 58.64, auc@5 86.36
+2021-06-01 04:40:15,048:INFO:[Rank-0] train time 34.2424, epoch  88, step  49, loss 0.82788706, auc@1 75.04, auc@5 95.34, share 4, std_loss 0, pre_std_loss 0, 
+2021-06-01 04:40:30,245:INFO:[Rank-0] val time 15.1939, epoch  88, step  40, loss 1.53370462, auc@1 60.75, auc@5 87.02
+2021-06-01 04:41:06,071:INFO:[Rank-0] train time 33.9917, epoch  89, step  49, loss 0.81720763, auc@1 75.25, auc@5 95.38, share 4, std_loss 0, pre_std_loss 0, 
+2021-06-01 04:41:21,129:INFO:[Rank-0] val time 15.0537, epoch  89, step  40, loss 1.49951578, auc@1 60.59, auc@5 87.07
+2021-06-01 04:41:57,173:INFO:[Rank-0] train time 34.1149, epoch  90, step  49, loss 0.81037909, auc@1 75.38, auc@5 95.63, share 4, std_loss 0, pre_std_loss 0, 
+2021-06-01 04:42:12,189:INFO:[Rank-0] val time 15.0114, epoch  90, step  40, loss 1.54789537, auc@1 60.41, auc@5 86.89
+2021-06-01 04:42:48,283:INFO:[Rank-0] train time 34.0734, epoch  91, step  49, loss 0.79217279, auc@1 75.82, auc@5 95.70, share 4, std_loss 0, pre_std_loss 0, 
+2021-06-01 04:43:03,234:INFO:[Rank-0] val time 14.9473, epoch  91, step  40, loss 1.46004616, auc@1 62.44, auc@5 87.82
+2021-06-01 04:43:39,487:INFO:[Rank-0] train time 34.0550, epoch  92, step  49, loss 0.78764343, auc@1 76.03, auc@5 95.85, share 4, std_loss 0, pre_std_loss 0, 
+2021-06-01 04:43:54,581:INFO:[Rank-0] val time 15.0902, epoch  92, step  40, loss 1.48327820, auc@1 61.47, auc@5 87.72
+2021-06-01 04:44:30,361:INFO:[Rank-0] train time 34.0489, epoch  93, step  49, loss 0.77398819, auc@1 76.61, auc@5 95.85, share 4, std_loss 0, pre_std_loss 0, 
+2021-06-01 04:44:45,334:INFO:[Rank-0] val time 14.9693, epoch  93, step  40, loss 1.60399756, auc@1 59.10, auc@5 85.97
+2021-06-01 04:45:21,351:INFO:[Rank-0] train time 34.0829, epoch  94, step  49, loss 0.76288486, auc@1 76.71, auc@5 96.02, share 4, std_loss 0, pre_std_loss 0, 
+2021-06-01 04:45:36,383:INFO:[Rank-0] val time 15.0292, epoch  94, step  40, loss 1.56128891, auc@1 59.57, auc@5 86.62
+2021-06-01 04:46:12,951:INFO:[Rank-0] train time 34.3338, epoch  95, step  49, loss 0.76069516, auc@1 76.61, auc@5 96.21, share 4, std_loss 0, pre_std_loss 0, 
+2021-06-01 04:46:28,096:INFO:[Rank-0] val time 15.1408, epoch  95, step  40, loss 1.60562975, auc@1 59.99, auc@5 86.83
+2021-06-01 04:47:04,582:INFO:[Rank-0] train time 34.0641, epoch  96, step  49, loss 0.75236601, auc@1 77.19, auc@5 96.18, share 4, std_loss 0, pre_std_loss 0, 
+2021-06-01 04:47:19,541:INFO:[Rank-0] val time 14.9555, epoch  96, step  40, loss 1.50072488, auc@1 61.64, auc@5 87.42
+2021-06-01 04:47:55,443:INFO:[Rank-0] train time 34.0086, epoch  97, step  49, loss 0.73568881, auc@1 77.60, auc@5 96.28, share 4, std_loss 0, pre_std_loss 0, 
+2021-06-01 04:48:10,437:INFO:[Rank-0] val time 14.9900, epoch  97, step  40, loss 1.52363460, auc@1 60.72, auc@5 87.42
+2021-06-01 04:48:46,770:INFO:[Rank-0] train time 34.0849, epoch  98, step  49, loss 0.72681248, auc@1 77.70, auc@5 96.43, share 4, std_loss 0, pre_std_loss 0, 
+2021-06-01 04:49:01,773:INFO:[Rank-0] val time 14.9998, epoch  98, step  40, loss 1.65890892, auc@1 59.27, auc@5 86.39
+2021-06-01 04:49:37,918:INFO:[Rank-0] train time 34.0852, epoch  99, step  49, loss 0.72877669, auc@1 77.78, auc@5 96.25, share 4, std_loss 0, pre_std_loss 0, 
+2021-06-01 04:49:53,045:INFO:[Rank-0] val time 15.1236, epoch  99, step  40, loss 1.72819134, auc@1 58.17, auc@5 86.01
+2021-06-01 04:50:29,187:INFO:[Rank-0] train time 34.2975, epoch 100, step  49, loss 0.71465409, auc@1 78.11, auc@5 96.58, share 4, std_loss 0, pre_std_loss 0, 
+2021-06-01 04:50:44,519:INFO:[Rank-0] val time 15.3281, epoch 100, step  40, loss 1.59578062, auc@1 59.95, auc@5 86.79
+2021-06-01 04:51:20,267:INFO:[Rank-0] train time 34.1662, epoch 101, step  49, loss 0.69764721, auc@1 78.60, auc@5 96.64, share 4, std_loss 0, pre_std_loss 0, 
+2021-06-01 04:51:35,320:INFO:[Rank-0] val time 15.0497, epoch 101, step  40, loss 1.43019236, auc@1 62.38, auc@5 88.14
+2021-06-01 04:52:11,770:INFO:[Rank-0] train time 34.1720, epoch 102, step  49, loss 0.70204669, auc@1 78.54, auc@5 96.64, share 4, std_loss 0, pre_std_loss 0, 
+2021-06-01 04:52:26,817:INFO:[Rank-0] val time 15.0434, epoch 102, step  40, loss 1.49294552, auc@1 61.98, auc@5 87.97
+2021-06-01 04:53:02,893:INFO:[Rank-0] train time 34.1995, epoch 103, step  49, loss 0.69005251, auc@1 78.59, auc@5 96.73, share 4, std_loss 0, pre_std_loss 0, 
+2021-06-01 04:53:17,868:INFO:[Rank-0] val time 14.9708, epoch 103, step  40, loss 1.45433648, auc@1 62.90, auc@5 88.11
+2021-06-01 04:53:53,926:INFO:[Rank-0] train time 33.9925, epoch 104, step  49, loss 0.67334026, auc@1 79.36, auc@5 96.82, share 4, std_loss 0, pre_std_loss 0, 
+2021-06-01 04:54:08,939:INFO:[Rank-0] val time 15.0092, epoch 104, step  40, loss 1.56388038, auc@1 61.64, auc@5 86.84
+2021-06-01 04:54:45,028:INFO:[Rank-0] train time 34.0784, epoch 105, step  49, loss 0.67945045, auc@1 79.04, auc@5 96.87, share 4, std_loss 0, pre_std_loss 0, 
+2021-06-01 04:55:00,012:INFO:[Rank-0] val time 14.9798, epoch 105, step  40, loss 1.43056714, auc@1 63.20, auc@5 88.35
+2021-06-01 04:55:35,817:INFO:[Rank-0] train time 34.1138, epoch 106, step  49, loss 0.67391872, auc@1 79.37, auc@5 96.93, share 4, std_loss 0, pre_std_loss 0, 
+2021-06-01 04:55:50,889:INFO:[Rank-0] val time 15.0682, epoch 106, step  40, loss 1.48133242, auc@1 63.39, auc@5 88.11
+2021-06-01 04:56:26,350:INFO:[Rank-0] train time 33.9647, epoch 107, step  49, loss 0.66410327, auc@1 79.52, auc@5 96.87, share 4, std_loss 0, pre_std_loss 0, 
+2021-06-01 04:56:41,513:INFO:[Rank-0] val time 15.1582, epoch 107, step  40, loss 2.00215197, auc@1 57.11, auc@5 84.03
+2021-06-01 04:57:17,228:INFO:[Rank-0] train time 34.0453, epoch 108, step  49, loss 0.65320420, auc@1 80.14, auc@5 96.92, share 4, std_loss 0, pre_std_loss 0, 
+2021-06-01 04:57:32,169:INFO:[Rank-0] val time 14.9386, epoch 108, step  40, loss 1.44946175, auc@1 62.87, auc@5 87.98
+2021-06-01 04:58:07,991:INFO:[Rank-0] train time 33.9981, epoch 109, step  49, loss 0.64334828, auc@1 80.26, auc@5 97.13, share 4, std_loss 0, pre_std_loss 0, 
+2021-06-01 04:58:23,081:INFO:[Rank-0] val time 15.0870, epoch 109, step  40, loss 1.50682033, auc@1 62.82, auc@5 88.11
+2021-06-01 04:58:58,938:INFO:[Rank-0] train time 34.0533, epoch 110, step  49, loss 0.63394237, auc@1 80.39, auc@5 97.16, share 4, std_loss 0, pre_std_loss 0, 
+2021-06-01 04:59:13,874:INFO:[Rank-0] val time 14.9323, epoch 110, step  40, loss 1.54587728, auc@1 61.79, auc@5 88.00
+2021-06-01 04:59:50,015:INFO:[Rank-0] train time 34.1536, epoch 111, step  49, loss 0.63258076, auc@1 80.47, auc@5 97.24, share 4, std_loss 0, pre_std_loss 0, 
+2021-06-01 05:00:05,579:INFO:[Rank-0] val time 15.5598, epoch 111, step  40, loss 1.62437676, auc@1 60.35, auc@5 87.18
+2021-06-01 05:00:41,094:INFO:[Rank-0] train time 34.1675, epoch 112, step  49, loss 0.62325484, auc@1 80.78, auc@5 97.34, share 4, std_loss 0, pre_std_loss 0, 
+2021-06-01 05:00:56,241:INFO:[Rank-0] val time 15.1432, epoch 112, step  40, loss 1.49446788, auc@1 63.71, auc@5 88.34
+2021-06-01 05:01:32,419:INFO:[Rank-0] train time 34.1236, epoch 113, step  49, loss 0.61634552, auc@1 81.03, auc@5 97.30, share 4, std_loss 0, pre_std_loss 0, 
+2021-06-01 05:01:47,379:INFO:[Rank-0] val time 14.9564, epoch 113, step  40, loss 1.48439184, auc@1 62.93, auc@5 88.01
+2021-06-01 05:02:23,387:INFO:[Rank-0] train time 34.1252, epoch 114, step  49, loss 0.61237371, auc@1 81.03, auc@5 97.43, share 4, std_loss 0, pre_std_loss 0, 
+2021-06-01 05:02:38,434:INFO:[Rank-0] val time 15.0442, epoch 114, step  40, loss 1.47066560, auc@1 62.56, auc@5 89.10
+2021-06-01 05:03:14,474:INFO:[Rank-0] train time 34.0579, epoch 115, step  49, loss 0.60354030, auc@1 81.28, auc@5 97.47, share 4, std_loss 0, pre_std_loss 0, 
+2021-06-01 05:03:29,523:INFO:[Rank-0] val time 15.0459, epoch 115, step  40, loss 1.48579855, auc@1 62.64, auc@5 88.23
+2021-06-01 05:04:05,063:INFO:[Rank-0] train time 34.1388, epoch 116, step  49, loss 0.60154027, auc@1 81.21, auc@5 97.51, share 4, std_loss 0, pre_std_loss 0, 
+2021-06-01 05:04:20,093:INFO:[Rank-0] val time 15.0264, epoch 116, step  40, loss 1.47391762, auc@1 63.23, auc@5 88.22
+2021-06-01 05:04:56,216:INFO:[Rank-0] train time 34.1940, epoch 117, step  49, loss 0.59830475, auc@1 81.23, auc@5 97.66, share 4, std_loss 0, pre_std_loss 0, 
+2021-06-01 05:05:11,157:INFO:[Rank-0] val time 14.9374, epoch 117, step  40, loss 1.56884057, auc@1 62.06, auc@5 87.85
+2021-06-01 05:05:47,222:INFO:[Rank-0] train time 34.4882, epoch 118, step  49, loss 0.59262294, auc@1 81.68, auc@5 97.57, share 4, std_loss 0, pre_std_loss 0, 
+2021-06-01 05:06:02,130:INFO:[Rank-0] val time 14.9041, epoch 118, step  40, loss 1.64581033, auc@1 60.52, auc@5 86.54
+2021-06-01 05:06:38,325:INFO:[Rank-0] train time 34.1381, epoch 119, step  49, loss 0.58480561, auc@1 81.84, auc@5 97.64, share 4, std_loss 0, pre_std_loss 0, 
+2021-06-01 05:06:53,461:INFO:[Rank-0] val time 15.1317, epoch 119, step  40, loss 1.51701101, auc@1 62.52, auc@5 88.25
+2021-06-01 05:07:29,411:INFO:[Rank-0] train time 34.2235, epoch 120, step  49, loss 0.57782483, auc@1 82.14, auc@5 97.65, share 4, std_loss 0, pre_std_loss 0, 
+2021-06-01 05:07:44,365:INFO:[Rank-0] val time 14.9506, epoch 120, step  40, loss 1.44926758, auc@1 63.15, auc@5 88.63
+2021-06-01 05:08:20,453:INFO:[Rank-0] train time 34.0497, epoch 121, step  49, loss 0.45230788, auc@1 86.15, auc@5 98.49, share 4, std_loss 0, pre_std_loss 0, 
+2021-06-01 05:08:35,513:INFO:[Rank-0] val time 15.0553, epoch 121, step  40, loss 1.11620638, auc@1 70.44, auc@5 92.21
+2021-06-01 05:09:11,518:INFO:[Rank-0] train time 34.0529, epoch 122, step  49, loss 0.37604347, auc@1 88.44, auc@5 98.87, share 4, std_loss 0, pre_std_loss 0, 
+2021-06-01 05:09:26,533:INFO:[Rank-0] val time 15.0111, epoch 122, step  40, loss 1.10596945, auc@1 70.57, auc@5 92.24
+2021-06-01 05:10:02,652:INFO:[Rank-0] train time 34.1616, epoch 123, step  49, loss 0.34802911, auc@1 89.42, auc@5 98.99, share 4, std_loss 0, pre_std_loss 0, 
+2021-06-01 05:10:17,697:INFO:[Rank-0] val time 15.0423, epoch 123, step  40, loss 1.09727579, auc@1 71.14, auc@5 92.26
+2021-06-01 05:10:53,669:INFO:[Rank-0] train time 34.1047, epoch 124, step  49, loss 0.32860962, auc@1 90.00, auc@5 99.15, share 4, std_loss 0, pre_std_loss 0, 
+2021-06-01 05:11:08,864:INFO:[Rank-0] val time 15.1901, epoch 124, step  40, loss 1.09798434, auc@1 71.37, auc@5 92.49
+2021-06-01 05:11:44,720:INFO:[Rank-0] train time 34.2368, epoch 125, step  49, loss 0.31867671, auc@1 90.37, auc@5 99.15, share 4, std_loss 0, pre_std_loss 0, 
+2021-06-01 05:11:59,648:INFO:[Rank-0] val time 14.9242, epoch 125, step  40, loss 1.10700412, auc@1 71.40, auc@5 92.31
+2021-06-01 05:12:35,501:INFO:[Rank-0] train time 34.1291, epoch 126, step  49, loss 0.30210161, auc@1 90.95, auc@5 99.22, share 4, std_loss 0, pre_std_loss 0, 
+2021-06-01 05:12:50,628:INFO:[Rank-0] val time 15.1230, epoch 126, step  40, loss 1.09693511, auc@1 71.28, auc@5 92.65
+2021-06-01 05:13:26,359:INFO:[Rank-0] train time 34.1085, epoch 127, step  49, loss 0.29417628, auc@1 91.14, auc@5 99.29, share 4, std_loss 0, pre_std_loss 0, 
+2021-06-01 05:13:41,408:INFO:[Rank-0] val time 15.0454, epoch 127, step  40, loss 1.10351121, auc@1 71.33, auc@5 92.54
+2021-06-01 05:14:17,113:INFO:[Rank-0] train time 34.0057, epoch 128, step  49, loss 0.29191971, auc@1 91.03, auc@5 99.32, share 4, std_loss 0, pre_std_loss 0, 
+2021-06-01 05:14:32,112:INFO:[Rank-0] val time 14.9953, epoch 128, step  40, loss 1.10530555, auc@1 71.48, auc@5 92.45
+2021-06-01 05:15:08,572:INFO:[Rank-0] train time 34.1327, epoch 129, step  49, loss 0.27904204, auc@1 91.69, auc@5 99.30, share 4, std_loss 0, pre_std_loss 0, 
+2021-06-01 05:15:23,613:INFO:[Rank-0] val time 15.0372, epoch 129, step  40, loss 1.09905677, auc@1 71.72, auc@5 92.38
+2021-06-01 05:15:59,430:INFO:[Rank-0] train time 34.1321, epoch 130, step  49, loss 0.27491349, auc@1 91.52, auc@5 99.36, share 4, std_loss 0, pre_std_loss 0, 
+2021-06-01 05:16:14,524:INFO:[Rank-0] val time 15.0903, epoch 130, step  40, loss 1.09795319, auc@1 71.59, auc@5 92.42
+2021-06-01 05:16:50,606:INFO:[Rank-0] train time 34.1659, epoch 131, step  49, loss 0.27324128, auc@1 91.78, auc@5 99.37, share 4, std_loss 0, pre_std_loss 0, 
+2021-06-01 05:17:05,600:INFO:[Rank-0] val time 14.9899, epoch 131, step  40, loss 1.10587061, auc@1 71.57, auc@5 92.51
+2021-06-01 05:17:41,926:INFO:[Rank-0] train time 34.1690, epoch 132, step  49, loss 0.26649761, auc@1 92.03, auc@5 99.35, share 4, std_loss 0, pre_std_loss 0, 
+2021-06-01 05:17:56,917:INFO:[Rank-0] val time 14.9883, epoch 132, step  40, loss 1.10822396, auc@1 71.69, auc@5 92.49
+2021-06-01 05:18:32,792:INFO:[Rank-0] train time 34.1471, epoch 133, step  49, loss 0.26274005, auc@1 92.02, auc@5 99.43, share 4, std_loss 0, pre_std_loss 0, 
+2021-06-01 05:18:47,748:INFO:[Rank-0] val time 14.9518, epoch 133, step  40, loss 1.10379871, auc@1 71.78, auc@5 92.51
+2021-06-01 05:19:23,737:INFO:[Rank-0] train time 34.1148, epoch 134, step  49, loss 0.25210068, auc@1 92.36, auc@5 99.46, share 4, std_loss 0, pre_std_loss 0, 
+2021-06-01 05:19:38,799:INFO:[Rank-0] val time 15.0584, epoch 134, step  40, loss 1.10760700, auc@1 71.67, auc@5 92.58
+2021-06-01 05:20:14,400:INFO:[Rank-0] train time 34.0282, epoch 135, step  49, loss 0.24930723, auc@1 92.55, auc@5 99.45, share 4, std_loss 0, pre_std_loss 0, 
+2021-06-01 05:20:29,367:INFO:[Rank-0] val time 14.9641, epoch 135, step  40, loss 1.10362377, auc@1 71.64, auc@5 92.49
+2021-06-01 05:21:05,424:INFO:[Rank-0] train time 34.0991, epoch 136, step  49, loss 0.24457781, auc@1 92.70, auc@5 99.44, share 4, std_loss 0, pre_std_loss 0, 
+2021-06-01 05:21:20,449:INFO:[Rank-0] val time 15.0199, epoch 136, step  40, loss 1.11086359, auc@1 71.96, auc@5 92.53
+2021-06-01 05:21:56,187:INFO:[Rank-0] train time 34.1178, epoch 137, step  49, loss 0.24663630, auc@1 92.52, auc@5 99.48, share 4, std_loss 0, pre_std_loss 0, 
+2021-06-01 05:22:11,313:INFO:[Rank-0] val time 15.1229, epoch 137, step  40, loss 1.11868178, auc@1 71.77, auc@5 92.38
+2021-06-01 05:22:47,394:INFO:[Rank-0] train time 34.3556, epoch 138, step  49, loss 0.23883629, auc@1 92.81, auc@5 99.51, share 4, std_loss 0, pre_std_loss 0, 
+2021-06-01 05:23:02,403:INFO:[Rank-0] val time 15.0041, epoch 138, step  40, loss 1.11258240, auc@1 71.76, auc@5 92.25
+2021-06-01 05:23:38,750:INFO:[Rank-0] train time 34.1456, epoch 139, step  49, loss 0.23593280, auc@1 92.94, auc@5 99.47, share 4, std_loss 0, pre_std_loss 0, 
+2021-06-01 05:23:53,764:INFO:[Rank-0] val time 15.0105, epoch 139, step  40, loss 1.10970828, auc@1 71.62, auc@5 92.44
+2021-06-01 05:24:29,718:INFO:[Rank-0] train time 34.1907, epoch 140, step  49, loss 0.23005529, auc@1 93.03, auc@5 99.57, share 4, std_loss 0, pre_std_loss 0, 
+2021-06-01 05:24:44,815:INFO:[Rank-0] val time 15.0925, epoch 140, step  40, loss 1.11138319, auc@1 71.90, auc@5 92.57
+2021-06-01 05:25:21,006:INFO:[Rank-0] train time 34.3588, epoch 141, step  49, loss 0.22826476, auc@1 93.15, auc@5 99.52, share 4, std_loss 0, pre_std_loss 0, 
+2021-06-01 05:25:36,069:INFO:[Rank-0] val time 15.0577, epoch 141, step  40, loss 1.11095893, auc@1 71.80, auc@5 92.55
+2021-06-01 05:26:12,290:INFO:[Rank-0] train time 34.2144, epoch 142, step  49, loss 0.22667654, auc@1 93.11, auc@5 99.57, share 4, std_loss 0, pre_std_loss 0, 
+2021-06-01 05:26:27,325:INFO:[Rank-0] val time 15.0314, epoch 142, step  40, loss 1.10908322, auc@1 71.72, auc@5 92.70
+2021-06-01 05:27:03,350:INFO:[Rank-0] train time 34.0747, epoch 143, step  49, loss 0.22367205, auc@1 93.34, auc@5 99.56, share 4, std_loss 0, pre_std_loss 0, 
+2021-06-01 05:27:18,317:INFO:[Rank-0] val time 14.9643, epoch 143, step  40, loss 1.11419112, auc@1 71.71, auc@5 92.63
+2021-06-01 05:27:54,278:INFO:[Rank-0] train time 34.2942, epoch 144, step  49, loss 0.21664713, auc@1 93.63, auc@5 99.58, share 4, std_loss 0, pre_std_loss 0, 
+2021-06-01 05:28:09,256:INFO:[Rank-0] val time 14.9738, epoch 144, step  40, loss 1.12090420, auc@1 71.68, auc@5 92.46
+2021-06-01 05:28:45,203:INFO:[Rank-0] train time 34.2099, epoch 145, step  49, loss 0.21721986, auc@1 93.60, auc@5 99.59, share 4, std_loss 0, pre_std_loss 0, 
+2021-06-01 05:29:00,213:INFO:[Rank-0] val time 15.0055, epoch 145, step  40, loss 1.12431460, auc@1 72.10, auc@5 92.45
+2021-06-01 05:29:36,690:INFO:[Rank-0] train time 34.2342, epoch 146, step  49, loss 0.21390882, auc@1 93.78, auc@5 99.58, share 4, std_loss 0, pre_std_loss 0, 
+2021-06-01 05:29:51,784:INFO:[Rank-0] val time 15.0890, epoch 146, step  40, loss 1.12672550, auc@1 71.62, auc@5 92.27
+2021-06-01 05:30:27,749:INFO:[Rank-0] train time 34.0771, epoch 147, step  49, loss 0.21134338, auc@1 93.79, auc@5 99.62, share 4, std_loss 0, pre_std_loss 0, 
+2021-06-01 05:30:42,713:INFO:[Rank-0] val time 14.9593, epoch 147, step  40, loss 1.12743224, auc@1 71.66, auc@5 92.28
+2021-06-01 05:31:18,579:INFO:[Rank-0] train time 34.1856, epoch 148, step  49, loss 0.20735767, auc@1 93.81, auc@5 99.66, share 4, std_loss 0, pre_std_loss 0, 
+2021-06-01 05:31:33,653:INFO:[Rank-0] val time 15.0699, epoch 148, step  40, loss 1.12481225, auc@1 71.60, auc@5 92.35
+2021-06-01 05:32:09,867:INFO:[Rank-0] train time 34.1068, epoch 149, step  49, loss 0.20074499, auc@1 94.11, auc@5 99.66, share 4, std_loss 0, pre_std_loss 0, 
+2021-06-01 05:32:24,907:INFO:[Rank-0] val time 15.0365, epoch 149, step  40, loss 1.13002900, auc@1 71.94, auc@5 92.19
+2021-06-01 05:33:01,033:INFO:[Rank-0] train time 34.0994, epoch 150, step  49, loss 0.20358975, auc@1 94.02, auc@5 99.66, share 4, std_loss 0, pre_std_loss 0, 
+2021-06-01 05:33:16,423:INFO:[Rank-0] val time 15.3864, epoch 150, step  40, loss 1.12671991, auc@1 71.90, auc@5 92.36
+2021-06-01 05:33:52,346:INFO:[Rank-0] train time 34.0860, epoch 151, step  49, loss 0.20266230, auc@1 94.06, auc@5 99.65, share 4, std_loss 0, pre_std_loss 0, 
+2021-06-01 05:34:07,310:INFO:[Rank-0] val time 14.9612, epoch 151, step  40, loss 1.12779349, auc@1 71.86, auc@5 92.49
+2021-06-01 05:34:43,233:INFO:[Rank-0] train time 34.0794, epoch 152, step  49, loss 0.19636700, auc@1 94.22, auc@5 99.70, share 4, std_loss 0, pre_std_loss 0, 
+2021-06-01 05:34:58,262:INFO:[Rank-0] val time 15.0260, epoch 152, step  40, loss 1.13173491, auc@1 71.74, auc@5 92.38
+2021-06-01 05:35:33,965:INFO:[Rank-0] train time 34.1357, epoch 153, step  49, loss 0.19262031, auc@1 94.38, auc@5 99.71, share 4, std_loss 0, pre_std_loss 0, 
+2021-06-01 05:35:49,212:INFO:[Rank-0] val time 15.2435, epoch 153, step  40, loss 1.13122971, auc@1 71.73, auc@5 92.49
+2021-06-01 05:36:25,086:INFO:[Rank-0] train time 34.0686, epoch 154, step  49, loss 0.19089134, auc@1 94.43, auc@5 99.70, share 4, std_loss 0, pre_std_loss 0, 
+2021-06-01 05:36:40,101:INFO:[Rank-0] val time 15.0118, epoch 154, step  40, loss 1.13312246, auc@1 71.95, auc@5 92.55
+2021-06-01 05:37:16,100:INFO:[Rank-0] train time 34.3331, epoch 155, step  49, loss 0.19084944, auc@1 94.49, auc@5 99.65, share 4, std_loss 0, pre_std_loss 0, 
+2021-06-01 05:37:31,220:INFO:[Rank-0] val time 15.1157, epoch 155, step  40, loss 1.13703561, auc@1 71.99, auc@5 92.39
+2021-06-01 05:38:07,287:INFO:[Rank-0] train time 34.1648, epoch 156, step  49, loss 0.18979725, auc@1 94.46, auc@5 99.71, share 4, std_loss 0, pre_std_loss 0, 
+2021-06-01 05:38:22,367:INFO:[Rank-0] val time 15.0770, epoch 156, step  40, loss 1.13557458, auc@1 71.88, auc@5 92.35
+2021-06-01 05:38:58,437:INFO:[Rank-0] train time 34.1241, epoch 157, step  49, loss 0.18237586, auc@1 94.73, auc@5 99.73, share 4, std_loss 0, pre_std_loss 0, 
+2021-06-01 05:39:13,488:INFO:[Rank-0] val time 15.0483, epoch 157, step  40, loss 1.14330318, auc@1 71.90, auc@5 92.39
+2021-06-01 05:39:49,919:INFO:[Rank-0] train time 34.0368, epoch 158, step  49, loss 0.18395808, auc@1 94.63, auc@5 99.70, share 4, std_loss 0, pre_std_loss 0, 
+2021-06-01 05:40:04,906:INFO:[Rank-0] val time 14.9843, epoch 158, step  40, loss 1.15546188, auc@1 71.89, auc@5 92.21
+2021-06-01 05:40:40,989:INFO:[Rank-0] train time 34.2090, epoch 159, step  49, loss 0.17939866, auc@1 94.84, auc@5 99.77, share 4, std_loss 0, pre_std_loss 0, 
+2021-06-01 05:40:55,941:INFO:[Rank-0] val time 14.9486, epoch 159, step  40, loss 1.14322875, auc@1 71.82, auc@5 92.33
+2021-06-01 05:41:32,281:INFO:[Rank-0] train time 34.1118, epoch 160, step  49, loss 0.17486414, auc@1 94.96, auc@5 99.73, share 4, std_loss 0, pre_std_loss 0, 
+2021-06-01 05:41:47,415:INFO:[Rank-0] val time 15.1308, epoch 160, step  40, loss 1.14039501, auc@1 71.64, auc@5 92.39
+2021-06-01 05:42:23,157:INFO:[Rank-0] train time 34.0888, epoch 161, step  49, loss 0.17171939, auc@1 95.04, auc@5 99.76, share 4, std_loss 0, pre_std_loss 0, 
+2021-06-01 05:42:38,340:INFO:[Rank-0] val time 15.1796, epoch 161, step  40, loss 1.13429973, auc@1 71.93, auc@5 92.60
+2021-06-01 05:43:14,297:INFO:[Rank-0] train time 34.0406, epoch 162, step  49, loss 0.16981843, auc@1 95.19, auc@5 99.74, share 4, std_loss 0, pre_std_loss 0, 
+2021-06-01 05:43:29,324:INFO:[Rank-0] val time 15.0223, epoch 162, step  40, loss 1.13153642, auc@1 71.91, auc@5 92.53
+2021-06-01 05:44:05,810:INFO:[Rank-0] train time 34.2035, epoch 163, step  49, loss 0.17145601, auc@1 94.97, auc@5 99.75, share 4, std_loss 0, pre_std_loss 0, 
+2021-06-01 05:44:20,872:INFO:[Rank-0] val time 15.0577, epoch 163, step  40, loss 1.13104004, auc@1 72.07, auc@5 92.53
+2021-06-01 05:44:56,891:INFO:[Rank-0] train time 34.1892, epoch 164, step  49, loss 0.17051858, auc@1 95.16, auc@5 99.73, share 4, std_loss 0, pre_std_loss 0, 
+2021-06-01 05:45:11,837:INFO:[Rank-0] val time 14.9417, epoch 164, step  40, loss 1.12984268, auc@1 72.06, auc@5 92.56
+2021-06-01 05:45:47,594:INFO:[Rank-0] train time 34.9606, epoch 165, step  49, loss 0.16817278, auc@1 95.27, auc@5 99.75, share 4, std_loss 0, pre_std_loss 0, 
+2021-06-01 05:46:02,602:INFO:[Rank-0] val time 15.0033, epoch 165, step  40, loss 1.13059492, auc@1 72.04, auc@5 92.47
+2021-06-01 05:46:38,462:INFO:[Rank-0] train time 34.1119, epoch 166, step  49, loss 0.16616289, auc@1 95.24, auc@5 99.77, share 4, std_loss 0, pre_std_loss 0, 
+2021-06-01 05:46:53,521:INFO:[Rank-0] val time 15.0552, epoch 166, step  40, loss 1.12594698, auc@1 72.28, auc@5 92.46
+2021-06-01 05:47:29,969:INFO:[Rank-0] train time 34.1385, epoch 167, step  49, loss 0.16679578, auc@1 95.25, auc@5 99.77, share 4, std_loss 0, pre_std_loss 0, 
+2021-06-01 05:47:45,056:INFO:[Rank-0] val time 15.0834, epoch 167, step  40, loss 1.12957295, auc@1 72.20, auc@5 92.43
+2021-06-01 05:48:20,842:INFO:[Rank-0] train time 34.0541, epoch 168, step  49, loss 0.16720070, auc@1 95.28, auc@5 99.77, share 4, std_loss 0, pre_std_loss 0, 
+2021-06-01 05:48:35,877:INFO:[Rank-0] val time 15.0317, epoch 168, step  40, loss 1.12878102, auc@1 72.17, auc@5 92.48
+2021-06-01 05:49:12,296:INFO:[Rank-0] train time 34.1339, epoch 169, step  49, loss 0.16745351, auc@1 95.28, auc@5 99.75, share 4, std_loss 0, pre_std_loss 0, 
+2021-06-01 05:49:27,264:INFO:[Rank-0] val time 14.9648, epoch 169, step  40, loss 1.13272965, auc@1 72.11, auc@5 92.39
+2021-06-01 05:50:03,127:INFO:[Rank-0] train time 34.1313, epoch 170, step  49, loss 0.16465691, auc@1 95.42, auc@5 99.78, share 4, std_loss 0, pre_std_loss 0, 
+2021-06-01 05:50:18,219:INFO:[Rank-0] val time 15.0889, epoch 170, step  40, loss 1.13046301, auc@1 72.15, auc@5 92.50
+2021-06-01 05:50:53,875:INFO:[Rank-0] train time 34.5284, epoch 171, step  49, loss 0.16664183, auc@1 95.26, auc@5 99.80, share 4, std_loss 0, pre_std_loss 0, 
+2021-06-01 05:51:09,156:INFO:[Rank-0] val time 15.2782, epoch 171, step  40, loss 1.13053323, auc@1 72.00, auc@5 92.44
+2021-06-01 05:51:45,449:INFO:[Rank-0] train time 34.0175, epoch 172, step  49, loss 0.16709538, auc@1 95.21, auc@5 99.77, share 4, std_loss 0, pre_std_loss 0, 
+2021-06-01 05:52:00,599:INFO:[Rank-0] val time 15.1451, epoch 172, step  40, loss 1.12573646, auc@1 72.19, auc@5 92.36
+2021-06-01 05:52:36,661:INFO:[Rank-0] train time 34.1010, epoch 173, step  49, loss 0.16085592, auc@1 95.46, auc@5 99.82, share 4, std_loss 0, pre_std_loss 0, 
+2021-06-01 05:52:51,665:INFO:[Rank-0] val time 15.0011, epoch 173, step  40, loss 1.12828767, auc@1 72.04, auc@5 92.37
+2021-06-01 05:53:27,886:INFO:[Rank-0] train time 34.2261, epoch 174, step  49, loss 0.16477139, auc@1 95.32, auc@5 99.75, share 4, std_loss 0, pre_std_loss 0, 
+2021-06-01 05:53:43,056:INFO:[Rank-0] val time 15.1654, epoch 174, step  40, loss 1.13046556, auc@1 72.25, auc@5 92.44
+2021-06-01 05:54:18,757:INFO:[Rank-0] train time 34.1257, epoch 175, step  49, loss 0.15980747, auc@1 95.53, auc@5 99.79, share 4, std_loss 0, pre_std_loss 0, 
+2021-06-01 05:54:33,814:INFO:[Rank-0] val time 15.0533, epoch 175, step  40, loss 1.13486017, auc@1 72.15, auc@5 92.43
+2021-06-01 05:55:09,816:INFO:[Rank-0] train time 34.1603, epoch 176, step  49, loss 0.16373821, auc@1 95.32, auc@5 99.80, share 4, std_loss 0, pre_std_loss 0, 
+2021-06-01 05:55:25,005:INFO:[Rank-0] val time 15.1848, epoch 176, step  40, loss 1.12620728, auc@1 72.24, auc@5 92.44
+2021-06-01 05:56:01,045:INFO:[Rank-0] train time 34.0884, epoch 177, step  49, loss 0.16331361, auc@1 95.38, auc@5 99.79, share 4, std_loss 0, pre_std_loss 0, 
+2021-06-01 05:56:16,132:INFO:[Rank-0] val time 15.0820, epoch 177, step  40, loss 1.12898866, auc@1 72.21, auc@5 92.38
+2021-06-01 05:56:52,360:INFO:[Rank-0] train time 33.9743, epoch 178, step  49, loss 0.16016683, auc@1 95.48, auc@5 99.80, share 4, std_loss 0, pre_std_loss 0, 
+2021-06-01 05:57:07,397:INFO:[Rank-0] val time 15.0338, epoch 178, step  40, loss 1.13029902, auc@1 72.20, auc@5 92.38
+2021-06-01 05:57:43,779:INFO:[Rank-0] train time 34.1049, epoch 179, step  49, loss 0.15915839, auc@1 95.52, auc@5 99.81, share 4, std_loss 0, pre_std_loss 0, 
+2021-06-01 05:57:58,777:INFO:[Rank-0] val time 14.9933, epoch 179, step  40, loss 1.12998134, auc@1 72.20, auc@5 92.43
+2021-06-01 05:58:34,732:INFO:[Rank-0] train time 34.1530, epoch 180, step  49, loss 0.16252042, auc@1 95.40, auc@5 99.79, share 4, std_loss 0, pre_std_loss 0, 
+2021-06-01 05:58:49,885:INFO:[Rank-0] val time 15.1500, epoch 180, step  40, loss 1.12486509, auc@1 72.27, auc@5 92.45
+2021-06-01 05:59:25,713:INFO:[Rank-0] train time 34.1648, epoch 181, step  49, loss 0.16146752, auc@1 95.37, auc@5 99.79, share 4, std_loss 0, pre_std_loss 0, 
+2021-06-01 05:59:40,828:INFO:[Rank-0] val time 15.1108, epoch 181, step  40, loss 1.12842350, auc@1 72.07, auc@5 92.46
+2021-06-01 06:00:17,057:INFO:[Rank-0] train time 34.1263, epoch 182, step  49, loss 0.16230831, auc@1 95.38, auc@5 99.79, share 4, std_loss 0, pre_std_loss 0, 
+2021-06-01 06:00:32,035:INFO:[Rank-0] val time 14.9736, epoch 182, step  40, loss 1.13040921, auc@1 72.12, auc@5 92.47
+2021-06-01 06:01:08,031:INFO:[Rank-0] train time 34.2037, epoch 183, step  49, loss 0.16324475, auc@1 95.28, auc@5 99.76, share 4, std_loss 0, pre_std_loss 0, 
+2021-06-01 06:01:23,242:INFO:[Rank-0] val time 15.2080, epoch 183, step  40, loss 1.12987464, auc@1 72.17, auc@5 92.47
+2021-06-01 06:01:59,085:INFO:[Rank-0] train time 34.2730, epoch 184, step  49, loss 0.15954773, auc@1 95.44, auc@5 99.79, share 4, std_loss 0, pre_std_loss 0, 
+2021-06-01 06:02:14,180:INFO:[Rank-0] val time 15.0915, epoch 184, step  40, loss 1.13367921, auc@1 72.25, auc@5 92.55
+2021-06-01 06:02:50,298:INFO:[Rank-0] train time 33.9873, epoch 185, step  49, loss 0.16170949, auc@1 95.42, auc@5 99.77, share 4, std_loss 0, pre_std_loss 0, 
+2021-06-01 06:03:05,385:INFO:[Rank-0] val time 15.0822, epoch 185, step  40, loss 1.13082383, auc@1 72.16, auc@5 92.47
+2021-06-01 06:03:41,384:INFO:[Rank-0] train time 34.0612, epoch 186, step  49, loss 0.15994403, auc@1 95.54, auc@5 99.78, share 4, std_loss 0, pre_std_loss 0, 
+2021-06-01 06:03:56,334:INFO:[Rank-0] val time 14.9468, epoch 186, step  40, loss 1.12863266, auc@1 72.27, auc@5 92.56
+2021-06-01 06:04:32,111:INFO:[Rank-0] train time 33.9909, epoch 187, step  49, loss 0.16014722, auc@1 95.50, auc@5 99.77, share 4, std_loss 0, pre_std_loss 0, 
+2021-06-01 06:04:47,090:INFO:[Rank-0] val time 14.9758, epoch 187, step  40, loss 1.13032890, auc@1 72.22, auc@5 92.51
+2021-06-01 06:05:23,150:INFO:[Rank-0] train time 34.2272, epoch 188, step  49, loss 0.15912130, auc@1 95.52, auc@5 99.81, share 4, std_loss 0, pre_std_loss 0, 
+2021-06-01 06:05:38,118:INFO:[Rank-0] val time 14.9648, epoch 188, step  40, loss 1.13184739, auc@1 72.22, auc@5 92.42
+2021-06-01 06:06:14,466:INFO:[Rank-0] train time 34.1548, epoch 189, step  49, loss 0.15915839, auc@1 95.47, auc@5 99.79, share 4, std_loss 0, pre_std_loss 0, 
+2021-06-01 06:06:29,472:INFO:[Rank-0] val time 15.0016, epoch 189, step  40, loss 1.13295823, auc@1 72.25, auc@5 92.44
+2021-06-01 06:07:05,276:INFO:[Rank-0] train time 34.3613, epoch 190, step  49, loss 0.15745272, auc@1 95.56, auc@5 99.80, share 4, std_loss 0, pre_std_loss 0, 
+2021-06-01 06:07:20,316:INFO:[Rank-0] val time 15.0370, epoch 190, step  40, loss 1.13507366, auc@1 72.11, auc@5 92.45
+2021-06-01 06:07:56,211:INFO:[Rank-0] train time 34.0998, epoch 191, step  49, loss 0.16218519, auc@1 95.39, auc@5 99.78, share 4, std_loss 0, pre_std_loss 0, 
+2021-06-01 06:08:11,182:INFO:[Rank-0] val time 14.9679, epoch 191, step  40, loss 1.12737014, auc@1 72.30, auc@5 92.50
+2021-06-01 06:08:47,195:INFO:[Rank-0] train time 34.2052, epoch 192, step  49, loss 0.15566757, auc@1 95.63, auc@5 99.79, share 4, std_loss 0, pre_std_loss 0, 
+2021-06-01 06:09:02,505:INFO:[Rank-0] val time 15.3060, epoch 192, step  40, loss 1.12581478, auc@1 72.42, auc@5 92.57
+2021-06-01 06:09:38,245:INFO:[Rank-0] train time 33.9722, epoch 193, step  49, loss 0.15694724, auc@1 95.67, auc@5 99.78, share 4, std_loss 0, pre_std_loss 0, 
+2021-06-01 06:09:53,304:INFO:[Rank-0] val time 15.0554, epoch 193, step  40, loss 1.13339409, auc@1 72.14, auc@5 92.49
+2021-06-01 06:10:29,706:INFO:[Rank-0] train time 34.3403, epoch 194, step  49, loss 0.15534735, auc@1 95.63, auc@5 99.81, share 4, std_loss 0, pre_std_loss 0, 
+2021-06-01 06:10:44,764:INFO:[Rank-0] val time 15.0541, epoch 194, step  40, loss 1.12687172, auc@1 72.32, auc@5 92.52
+2021-06-01 06:11:20,947:INFO:[Rank-0] train time 34.0239, epoch 195, step  49, loss 0.15379781, auc@1 95.76, auc@5 99.81, share 4, std_loss 0, pre_std_loss 0, 
+2021-06-01 06:11:36,012:INFO:[Rank-0] val time 15.0604, epoch 195, step  40, loss 1.13146652, auc@1 72.28, auc@5 92.44
+2021-06-01 06:12:11,532:INFO:[Rank-0] train time 34.0020, epoch 196, step  49, loss 0.15833351, auc@1 95.52, auc@5 99.80, share 4, std_loss 0, pre_std_loss 0, 
+2021-06-01 06:12:26,724:INFO:[Rank-0] val time 15.1885, epoch 196, step  40, loss 1.13003382, auc@1 72.17, auc@5 92.46
+2021-06-01 06:13:02,879:INFO:[Rank-0] train time 34.0479, epoch 197, step  49, loss 0.15536499, auc@1 95.58, auc@5 99.82, share 4, std_loss 0, pre_std_loss 0, 
+2021-06-01 06:13:17,992:INFO:[Rank-0] val time 15.1089, epoch 197, step  40, loss 1.13008696, auc@1 72.36, auc@5 92.42
+2021-06-01 06:13:53,988:INFO:[Rank-0] train time 34.1555, epoch 198, step  49, loss 0.15555465, auc@1 95.66, auc@5 99.83, share 4, std_loss 0, pre_std_loss 0, 
+2021-06-01 06:14:08,965:INFO:[Rank-0] val time 14.9735, epoch 198, step  40, loss 1.12943149, auc@1 72.22, auc@5 92.52
+2021-06-01 06:14:45,060:INFO:[Rank-0] train time 34.1682, epoch 199, step  49, loss 0.15479819, auc@1 95.67, auc@5 99.82, share 4, std_loss 0, pre_std_loss 0, 
+2021-06-01 06:15:00,174:INFO:[Rank-0] val time 15.1109, epoch 199, step  40, loss 1.13003009, auc@1 72.11, auc@5 92.39
+2021-06-01 06:15:36,126:INFO:[Rank-0] train time 34.1221, epoch 200, step  49, loss 0.15569916, auc@1 95.63, auc@5 99.79, share 4, std_loss 0, pre_std_loss 0, 
+2021-06-01 06:15:51,167:INFO:[Rank-0] val time 15.0370, epoch 200, step  40, loss 1.13175790, auc@1 72.15, auc@5 92.44
+2021-06-01 06:15:51,168:INFO:[Rank-0] finish, train+val 10218.33857, train 7206.21038, reduce_count 800
