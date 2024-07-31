@@ -1,6 +1,6 @@
-# 분산 딥러닝을 학습 속도 향상을 위하여 Loss로 통신 시점을 결정하는 비동기 SGD
-- 분산 딥러닝 논문 실험 코드 
-- 논문명 : 분산 딥러닝을 위해 Loss로 통신 시점을 결정하는 비동기 SGD, 석사학위논문, 경희대학교 대학원, 2021 [논문 바로가기](http://www.riss.kr/search/detail/DetailView.do?p_mat_type=be54d9b8bc7cdb09&control_no=d1c4c88daebce394ffe0bdc3ef48d419)
+# 분산 딥러닝 환경에서 Loss로 통신 시점을 결정하는 비동기 SGD
+- 논문명 : 분산 딥러닝을 위해 Loss로 통신 시점을 결정하는 비동기 SGD [[논문 바로가기]](http://www.riss.kr/search/detail/DetailView.do?p_mat_type=be54d9b8bc7cdb09&control_no=d1c4c88daebce394ffe0bdc3ef48d419)
+  - 석사학위논문, 경희대학교 대학원, 2021
 - 분산 딥러닝에서 노드 간 파라미터 통신을 수행할때 가 노드에서 학습 중인 모델들의 Loss 상태에 따라 통신 여부를 결정하는 결정하는 방식이 모델의 성능에 어떠한 영향을 미치는지를 실험함
 
 # 초록
