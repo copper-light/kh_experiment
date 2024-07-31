@@ -11,5 +11,6 @@
 # 실험 결과 및 논문
 - 논문명 : [분산 딥러닝을 위해 Loss로 통신 시점을 결정하는 비동기 SGD, 국내석사학위논문 경희대학교 대학원, 2021](http://www.riss.kr/search/detail/DetailView.do?p_mat_type=be54d9b8bc7cdb09&control_no=d1c4c88daebce394ffe0bdc3ef48d419)
 
-# 결과 차트
-<img src='image.png'>
+# 주요 실험 결과
+<img src='image1.png'>
+<img src='image2.png'>
